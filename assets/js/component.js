@@ -5,13 +5,9 @@ function createHeader() {
 
   header.innerHTML = `
         <div class="logo">
-            <h1>E-Shop</h1>
+            <h1>E-Shop1</h1>
         </div>
-        <nav class="navbar">
-            <a href="#" onclick="fetchProducts('electronics')">Electronics</a>
-            <a href="#" onclick="fetchProducts('jewelery')">Jewelry</a>
-            <a href="#" onclick="fetchProducts('men\'s clothing')">Men's Clothing</a>
-            <a href="#" onclick="fetchProducts('women\'s clothing')">Women's Clothing</a>
+        <nav class="navbar" id="navbar">
         </nav>
     `;
 
